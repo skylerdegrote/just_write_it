@@ -18,6 +18,7 @@ $pageTitle = "Just Write It";
     <main>
         <h1>To be a Writer, <br>put one word in front of another.</h1>
         <h3>Just Write It</h3>
+        <?php include ('includes/navigation.php') ?>
     </main>
 
     <footer><?php include ('includes/footer.php') ?></footer>

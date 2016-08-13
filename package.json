@@ -1,0 +1,19 @@
+{
+  "name": "just_write_it",
+  "version": "1.0.0",
+  "description": "just write it website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylerdegrote/just_write_it.git"
+  },
+  "author": "Skyler DeGrote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skylerdegrote/just_write_it/issues"
+  },
+  "homepage": "https://github.com/skylerdegrote/just_write_it#readme"
+}
