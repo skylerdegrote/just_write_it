@@ -1,8 +1,4 @@
 
-
-
-
-
 <!doctype html>
 <html>
 <head>
@@ -14,7 +10,9 @@
         <li>Home</li>
         <li>About</li>
         <li></li>
-        <li></li>
+        <li class="alignRight">
+
+        </li>
     </ul>
 </nav>
 </body>
