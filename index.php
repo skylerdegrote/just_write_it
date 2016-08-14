@@ -9,7 +9,7 @@ $pageTitle = "Just Write It";
 <html>
 <head>
     <title><?php echo $pageTitle ?></title>
-    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/home.css">
 </head>
 <body>

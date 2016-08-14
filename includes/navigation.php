@@ -6,7 +6,7 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="/styles/navigation.css">
 </head>
 <body>
 <nav>

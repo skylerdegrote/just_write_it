@@ -3,7 +3,7 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/header-footer.css">
 </head>
 <body>
 <footer>
