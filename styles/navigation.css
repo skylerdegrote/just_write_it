@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #171144; }
+
+main {
+  min-height: 600px; }
+
+nav {
+  background-color: #171144;
+  height: 100px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0; }
+
+nav li {
+  list-style: none;
+  float: left;
+  margin: 30px; }
+
+/*# sourceMappingURL=navigation.css.map */
