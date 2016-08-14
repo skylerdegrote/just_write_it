@@ -1,0 +1,20 @@
+// Colors
+$darkBlue: #171144;
+$teal: #5ec2a4;
+$orange: #f69d1d;
+$white: #ffffff;
+$black: #000000;
+
+
+
+
+
+// General Styles
+body {
+  margin:0;
+  padding:0;
+  background-color: $darkBlue;
+}
+main {
+  min-height: 600px;
+}

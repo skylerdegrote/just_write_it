@@ -1,0 +1,20 @@
+@import "main";
+// Navigation Styles
+nav {
+  background-color: $darkBlue;
+  height: 100px;
+  color: $white;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+nav li {
+  list-style: none;
+  float: left;
+  margin: 30px;
+}
+
+
