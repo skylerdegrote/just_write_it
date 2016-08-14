@@ -8,10 +8,16 @@ main {
 
 header {
   background-color: #171144;
-  min-height: 80px; }
+  min-height: 100px; }
 
 footer {
   background-color: #171144;
   min-height: 150px; }
+
+.logoImg img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-left: 40px; }
 
 /*# sourceMappingURL=header-footer.css.map */

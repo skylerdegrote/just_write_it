@@ -2,11 +2,18 @@
 // Header Styles
 header {
   background-color: $darkBlue;
-  min-height: 80px;
+  min-height: 100px;
 }
 
 // Footer Styles
 footer {
   background-color: $darkBlue;
   min-height: 150px;
+}
+
+.logoImg img{
+  height: 100px;
+  width:100px;
+  float: left;
+  margin-left: 40px;
 }

@@ -1,9 +1,18 @@
 
+<!doctype>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles/header-footer.css">
+    </head>
+    <body>
     <header>
-        <img src="/images/logo/logo_square.png" height="100px">
+        <div class="logoImg"> <img src="/images/logo/logo_square.png"></div>
         <?php
         include ('navigation.php');
         ?>
 
     </header>
 
+
+    </body>
+</html>
