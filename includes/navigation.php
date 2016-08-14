@@ -11,8 +11,8 @@
 <body>
 <nav>
     <ul>
-        <li></li>
-        <li></li>
+        <li>Home</li>
+        <li>About</li>
         <li></li>
         <li></li>
     </ul>

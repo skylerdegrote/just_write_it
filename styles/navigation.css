@@ -1,19 +1,14 @@
-/*.centered {*/
-    /*margin: auto;*/
-    /*width: 430px;*/
-/*}*/
-/*.circleNav {*/
-    /*height: 100px;*/
-    /*width: 100px;*/
-    /*background-color: black;*/
-    /*float: left;*/
-    /*margin: 10px;*/
-    /*color: white;*/
-    /*padding: 10px;*/
-    /*text-align: center;*/
-/*}*/
 
 nav {
-    background-color: white;
-    height: 50px;
+    background-color: black;
+    height: 100px;
+    color: #fff;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin: 30px;
 }
