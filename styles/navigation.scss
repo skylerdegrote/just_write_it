@@ -8,13 +8,15 @@ nav {
   padding:0;
 }
 
-
-
-
 nav li {
   list-style: none;
   float: left;
   margin: 30px;
 }
 
+nav h3 {
+  color: $orange;
+  font-size: 18px;
+  font-family: sans-serif;
+}
 
