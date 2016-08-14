@@ -6,6 +6,10 @@ body {
 main {
   min-height: 600px; }
 
+.alignRight {
+  float: right;
+  padding-right: 50px; }
+
 nav {
   background-color: #171144;
   height: 100px;

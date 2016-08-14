@@ -6,6 +6,10 @@ body {
 main {
   min-height: 600px; }
 
+.alignRight {
+  float: right;
+  padding-right: 50px; }
+
 header {
   background-color: #171144;
   min-height: 100px; }
