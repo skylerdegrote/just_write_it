@@ -14,15 +14,16 @@ main {
 
 header {
   background-color: #171144;
-  min-height: 100px; }
+  height: 10px; }
 
 footer {
   background-color: #171144;
   min-height: 150px; }
 
 .logoImg img {
-  height: 100px;
+  height: 70px;
   float: left;
-  margin-left: 40px; }
+  margin-left: 40px;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=header-footer.css.map */

@@ -2,7 +2,7 @@
 // Header Styles
 header {
   background-color: $darkBlue;
-  min-height: 100px;
+  height: 10px;
 }
 
 // Footer Styles
@@ -12,7 +12,8 @@ footer {
 }
 
 .logoImg img{
-  height: 100px;
+  height: 70px;
   float: left;
   margin-left: 40px;
+  margin-top:10px;
 }

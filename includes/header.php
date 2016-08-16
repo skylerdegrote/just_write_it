@@ -8,9 +8,7 @@
     <header>
         <div class="logoImg"> <img src="/images/logo/logo_horizontal.png"></div>
     </header>
-    <?php
-    include ('navigation.php');
-    ?>
+
 
 
     </body>

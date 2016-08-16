@@ -15,6 +15,10 @@ $pageTitle = "Just Write It";
 <body>
     <?php include ('includes/header.php') ?>
 
+
+    <?php
+    include ('includes/navigation.php');
+    ?>
     <main>
         <h1>To be a Writer, <br>put one word in front of another.</h1>
         <h3>Just Write It</h3>

@@ -8,10 +8,11 @@ body
 #nav
 {
   width: 100%;
-  font-family: $titleFont;
+  //font-family: $titleFontType;
+  font-family: $navFontType;
   font-weight: 400;
-  float: left;
-
+  //font-size: $titleFontSize;
+  font-size: $navFontSize;
 }
 
 #nav > a

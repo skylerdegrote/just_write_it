@@ -19,7 +19,7 @@ body {
   width: 100%;
   font-family: sans-serif;
   font-weight: 400;
-  float: left; }
+  font-size: 13px; }
 
 #nav > a {
   display: none;
