@@ -18,6 +18,7 @@
   "homepage": "https://github.com/skylerdegrote/just_write_it#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
     "node-sass": "^3.8.0"
   },
   "devDependencies": {}

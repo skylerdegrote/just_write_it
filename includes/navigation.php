@@ -1,3 +1,10 @@
+<?php
+
+
+
+?>
+
+
 
 <!doctype html>
 <html>
@@ -8,8 +15,36 @@
 <body>
 <!--three lines for mobile menu-->
 <!--<a href="javascript:openMobile()" class="mobile">&#9776;</a>-->
-<a class="mobile" href="#">&#9776;</a>
+<!--<a class="mobile" href="#" >&#9776;</a>-->
 <!--navigation-->
+
+<ul class="topnav" id="myTopnav">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a>
+        <ul>
+            <li>Just Write It</li>
+            <li>Author</li>
+        </ul>
+    </li>
+    <li><a href="">Resources</a>
+        <ul>
+            <li>Build some Character</li>
+            <li>Set up a Setting</li>
+            <li>See a Scene</li>
+            <li>Write a chapter</li>
+        </ul>
+    </li>
+    <li><a href="">How To's</a>
+        <ul>
+            <li>Scrivener</li>
+            <li>Characters</li>
+            <li>Characters</li>
+        </ul>
+    </li>
+    <li class="icon">
+        <a href="" onclick="myFunction()">&#9776;</a>
+    </li>
+</ul>
 <nav>
     <ul>
         <li><a href="#">Link 1</a></li>

@@ -1,3 +1,8 @@
-function openMobile(){
-    $(".nav").toggle();
-}
+
+
+
+    $(function($){
+        $( '.menu-btn' ).click(function(){
+            $('.responsive-menu').toggleClass('expand')
+        })
+    });
