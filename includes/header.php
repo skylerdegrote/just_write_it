@@ -11,6 +11,7 @@
                 include ('navigation.php');
                 ?>
 
+        </div>
     </header>
 
 
