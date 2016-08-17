@@ -12,23 +12,15 @@
     <div class="menu-icon"></div>
     <ul>
         <li class="no-sub"><a class="top-heading" href="http://www.google.com">Home</a></li>
-        <li class="full-width">
-            <span class="top-heading">Blog</span>
+        <li>
+            <span class="top-heading">About</span>
             <i class="caret"></i>
             <div class="dropdown">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Categories</h3></li>
-                        <li><a href="#">Planning</a></li>
-                        <li><a href="#">Editing</a></li>
-                        <li><a href="#">Writing</a></li>
-                        <li><a href="#">Characters</a></li>
-                        <li><a href="#">Settings</a></li>
-                    </ul>
-                    <ul class="column">
-                        <li><h3>Dates</h3></li>
-                        <li><a href="#">July 2016</a></li>
-                        <li><a href="#">August 2016</a></li>
+                        <li><a href="#">About Just Write It</a></li>
+                        <li><a href="#">About the Author</a></li>
+                        <li><a href="#">Giving Credit</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +31,7 @@
             <div class="dropdown">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Snowflake Method</h3></li>
+                        <li><a href="#">Snowflake Method</a></li>
                         <li><a href="#">Planning in Detail</a></li>
                         <li><a href="#">Almost No Planning</a></li>
                         <li><a href="#">Need to know</a></li>
@@ -48,29 +40,24 @@
             </div>
         </li>
         <li>
-            <span class="top-heading">Accusantium</span>
+            <span class="top-heading">Blog</span>
             <i class="caret"></i>
             <div class="dropdown offset300">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Pellentesque</h3></li>
-                        <li><a href="#">Fermentum ut nulla</a></li>
-                        <li><a href="#">Duis ut mauris</a></li>
-                        <li><h3>Volutpat</h3></li>
-                        <li><a href="#">Quisque dictum</a></li>
-                        <li><a href="#">Nulla scelerisque</a></li>
+                        <li><h3>Dates</h3></li>
+                        <li><a href="#">August 2016</a></li>
+                        <li><h3>Recent Posts</h3></li>
+                        <li><a href="#">Hello!</a></li>
                     </ul>
                     <ul class="column">
-                        <li><h3>Suspendisse</h3></li>
-                        <li><a href="#">Suspendisse potenti</a></li>
-                        <li><a href="#">Curabitur in mauris</a></li>
-                        <li><a href="#">Phasellus ultrices</a></li>
-                        <li><a href="#">Quisque ornare</a></li>
-                        <li><a href="#">Vestibulum</a></li>
-                        <li><a href="#">Vitae tempus risus</a></li>
-                    </ul>
-                    <ul class="column mayHide">
-                        <li><br /><img src="ddmenu/img2.jpg" /></li>
+                        <li><h3>Categories</h3></li>
+                        <li><a href="#">Writing</a></li>
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Scenes</a></li>
+                        <li><a href="#">Chapters</a></li>
                     </ul>
                 </div>
             </div>
