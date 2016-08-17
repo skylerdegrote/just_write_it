@@ -5,54 +5,44 @@
     <title>Menucool ddmenu</title>
     <link href="../menu/ddmenu.css" rel="stylesheet" type="text/css" />
     <script src="../menu/ddmenu.js" type="text/javascript"></script>
-    <style>
-        /*The following are for this demo page only (not required for the ddmenu).*/
-        body { background: #eee url(ddmenu/ddmenu-bg.jpg) no-repeat center 0px; padding-top:90px;}
-    </style>
+
 </head>
 <body>
 <nav id="ddmenu">
     <div class="menu-icon"></div>
     <ul>
+        <li class="no-sub"><a class="top-heading" href="http://www.google.com">Home</a></li>
         <li class="full-width">
-            <span class="top-heading">Unde Omnis</span>
+            <span class="top-heading">Blog</span>
             <i class="caret"></i>
             <div class="dropdown">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Lorem Ipsum</h3></li>
-                        <li><a href="#">Dolor sit amet</a></li>
-                        <li><a href="#">Consectetur elit</a></li>
-                        <li><a href="#">Etiam massa</a></li>
-                        <li><a href="#">Suscipit sapien</a></li>
-                        <li><a href="#">Quis turpis</a></li>
+                        <li><h3>Categories</h3></li>
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Editing</a></li>
+                        <li><a href="#">Writing</a></li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Settings</a></li>
                     </ul>
                     <ul class="column">
-                        <li><h3>Etiam Massa</h3></li>
-                        <li><a href="#">Sed interdum</a></li>
-                        <li><a href="#">Fringilla congue</a></li>
-                        <li><a href="#">Dolor nisl auctor</a></li>
-                        <li><a href="#">Quisque dictum</a></li>
-                        <li><a href="#">Porttitor</a></li>
-                    </ul>
-                    <ul class="column mayHide">
-                        <li><br /><img src="ddmenu/img1.jpg" /></li>
+                        <li><h3>Dates</h3></li>
+                        <li><a href="#">July 2016</a></li>
+                        <li><a href="#">August 2016</a></li>
                     </ul>
                 </div>
             </div>
         </li>
-        <li class="no-sub"><a class="top-heading" href="http://www.google.com">Quisque</a></li>
         <li>
-            <a class="top-heading" href="http://www.microsoft.com">Link</a>
+            <a class="top-heading" href="http://www.microsoft.com">Resources</a>
             <i class="caret"></i>
             <div class="dropdown">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Vestibulum Ut</h3></li>
-                        <li><a href="#">Nunc pharetra</a></li>
-                        <li><a href="#">Vestibulum ante</a></li>
-                        <li><a href="#">Nulla id laoreet</a></li>
-                        <li><a href="#">Elementum blandit</a></li>
+                        <li><h3>Snowflake Method</h3></li>
+                        <li><a href="#">Planning in Detail</a></li>
+                        <li><a href="#">Almost No Planning</a></li>
+                        <li><a href="#">Need to know</a></li>
                     </ul>
                 </div>
             </div>

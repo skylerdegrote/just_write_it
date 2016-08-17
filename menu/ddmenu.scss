@@ -111,14 +111,10 @@ $black: #000000;
 {
   width:auto;
   left:0px;
-  color: $darkBlue;
+  color: $orange;
   padding:0;margin:0;display:none;position:absolute;overflow:hidden;
   top:100%;
-  border:1px solid rgba(255,255,255,0.35);
-  border-top:none;
-  border-radius:2px;
-  background-color:rgba(0,0,0,0.2);
-  background-color:$orange \9;/*fallback for old IE*/
+  background-color:$teal \9;/*fallback for old IE*/
 }
 
 #ddmenu .full-width .dropdown {
@@ -169,7 +165,7 @@ $black: #000000;
 
 #ddmenu .dropdown a
 {
-  color:$darkBlue;
+  color:$teal;
   line-height:1;
   text-decoration:none;
   transition:color 0.4s;
