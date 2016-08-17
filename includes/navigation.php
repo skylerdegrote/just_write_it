@@ -2,7 +2,7 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="/styles/mobile-friendly/style.css">
+    <link rel="stylesheet" href="../styles/mobile-friendly/style.css">
     <script src="../js/nav.min.js"> </script>
 </head>
 <body>
@@ -35,7 +35,7 @@
     <div style="clear:both;"></div>
 </nav>
 
-
+<script src="../js/nav.min.js"> </script>
 
 </body>
 </html>
