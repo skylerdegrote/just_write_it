@@ -3,10 +3,11 @@
 <html>
 <head>
     <link rel="stylesheet" href="../styles/mobile-friendly/style.css">
-    <script src="../js/nav.min.js"> </script>
+    <script src="../js/mobile.js"> </script>
 </head>
 <body>
 <!--three lines for mobile menu-->
+<!--<a href="javascript:openMobile()" class="mobile">&#9776;</a>-->
 <a class="mobile" href="#">&#9776;</a>
 <!--navigation-->
 <nav>
