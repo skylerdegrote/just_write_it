@@ -252,7 +252,7 @@ nav {
       max-height: 0;
       overflow: hidden;
       transition: all 0.5s ease;
-      background: #100c30; } }
+      background: #171144; } }
 
 nav ul {
   margin: 0 auto;
@@ -282,11 +282,11 @@ nav ul {
       text-align: center;
       color: #5ec2a4;
       text-decoration: none;
-      border-right: 1px solid #09071b;
+      border-right: 1px solid #5ec2a4;
       transition: all 0.1s ease; }
       nav ul li a:hover {
-        background: #09071b;
-        color: #f69d1d;
+        background: #5ec2a4;
+        color: #171144;
         transition: all 0.2s ease; }
       @media (max-width: 715px) {
         nav ul li a {
@@ -295,8 +295,6 @@ nav ul {
           padding: 15px 2px;
           color: white;
           border-top: 1px solid rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 3px rgba(255, 255, 255, 0.03);
-          text-shadow: none;
           width: 100%; } }
     nav ul li:hover ul {
       opacity: 1;
@@ -306,7 +304,7 @@ nav ul {
         nav ul li:hover ul {
           max-height: 0; } }
     nav ul li ul {
-      background: #09071b;
+      background: #171144;
       list-style: none;
       padding: 0;
       position: absolute;
@@ -316,7 +314,6 @@ nav ul {
       opacity: 0;
       overflow: hidden;
       font-size: .9em;
-      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
       transition: all 0.3s ease; }
       @media (max-width: 715px) {
         nav ul li ul {
@@ -325,7 +322,6 @@ nav ul {
           width: 100%;
           position: relative;
           overflow: hidden;
-          box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.5);
           transition: all 2s ease; } }
       nav ul li ul li {
         float: none;
@@ -339,14 +335,14 @@ nav ul {
           padding: 13.33333px 16.66667px;
           margin: 0;
           border-right: none;
-          border-top: 1px solid #060513;
-          box-shadow: inset 0px 1px 3px rgba(255, 255, 255, 0.03);
+          border-top: 1px solid #5ec2a4;
+          box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.03);
           text-transform: none;
           text-shadow: none;
           transition: all 0.2s ease; }
           nav ul li ul li a:hover {
-            color: #f69d1d;
-            background: #1e1658;
+            color: #171144;
+            background: #5ec2a4;
             transition: all 0.5s ease; }
           @media (max-width: 715px) {
             nav ul li ul li a {
@@ -361,26 +357,26 @@ MOBILE NAV STYLES
   display: none;
   margin: 0;
   padding: 20px 15px;
-  background: linear-gradient(to bottom, #353535 0%, #262626 100%);
+  background: #5ec2a4;
   position: absolute;
-  color: white;
+  color: #171144;
   text-decoration: none;
   top: 15px;
   right: 15px;
   line-height: 0;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.35); }
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.35); }
   @media (max-width: 715px) {
     .mobile {
       display: table; } }
 
 .active {
-  max-height: 9000px !important;
+  max-height: 9000px;
   transition: all 1s ease; }
 
 @media (max-width: 715px) {
   .arrow {
     display: block;
-    background: url(../images/arrow.png) no-repeat;
+    background: url(../../images/arrow.png) no-repeat;
     float: right;
     height: 30px;
     width: 30px;
