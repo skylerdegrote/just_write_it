@@ -10,10 +10,6 @@
 
 .grid__item {
   padding: 0.5rem; }
-  .grid__item:nth-child(even) {
-    background-color: #eee; }
-  .grid__item:nth-child(odd) {
-    background-color: #ddd; }
 
 .grid__item--xs-span-1 {
   flex: 0 0 100%; }

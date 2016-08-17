@@ -2,60 +2,40 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" href="/styles/navigation.css">
+    <link rel="stylesheet" href="/styles/mobile-friendly/style.css">
+    <script src="../js/nav.min.js"> </script>
 </head>
 <body>
-<nav id="nav" role="navigation">
-    <a href="#nav" title="Show navigation">Show navigation</a>
-    <a href="#" title="Hide navigation">Hide navigation</a>
+<!--three lines for mobile menu-->
+<a class="mobile" href="#">&#9776;</a>
+<!--navigation-->
+<nav>
     <ul>
-        <li>
-            <a href="?about" aria-haspopup="true"><span>About</span></a>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a>
             <ul>
-                <li><a href="?aboutjwi">Just Write It</a></li>
-                <li><a href="?aboutauthor">Author</a></li>
-
+                <li><a href="#">Sublink 1</a></li>
+                <li><a href="#">Sublink 2</a></li>
+                <li><a href="#">Sublink 3</a></li>
+                <li><a href="#">Sublink 4</a></li>
             </ul>
         </li>
-        <li>
-            <a href="?resources" aria-haspopup="true"><span>Resources</span></a>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a>
             <ul>
-                <li><a href="?characters">Characters</a></li>
-                <li><a href="?settings">Settings</a></li>
-                <li><a href="?scenes">Scenes</a></li>
+                <li><a href="#">Sublink 1</a></li>
+                <li><a href="#">Sublink 2</a></li>
+                <li><a href="#">Sublink 3</a></li>
+                <li><a href="#">Sublink 4</a></li>
             </ul>
         </li>
-        <li><a href="?howto" aria-haspopup="true"><span>How To's</span></a>
-            <ul>
-                <li><a href="?plan">Plan It Out</a></li>
-                <li><a href="?write">Start Writing</a></li>
-                <li><a href="?characterbuild">Character Building</a></li>
-                <li><a href="?settingstructure">Setting Structure</a></li>
-                <li><a href="?sceneschapters">Scenes and Chapters</a></li>
-            </ul>
-        </li>
-        <li><a href="?blog" aria-haspopup="true">Blog</a></li>
-        <li><a href="?members" aria-haspopup="true"><span>Members</span></a>
-            <ul>
-                <li><a href="?logout">Log Out</a></li>
-                <li><a href="?profile">My Profile</a></li>
-                <li><a href="?settings">Settings</a></li>
-            </ul>
-        </li>
+        <li><a href="#">Link 5</a></li>
+        <li><a href="#">Link 6</a></li>
     </ul>
+    <div style="clear:both;"></div>
 </nav>
-<!--<nav>-->
-<!--    <ul>-->
-<!--        <li>Home</li>-->
-<!--        <li>About</li>-->
-<!--        <li>Resources</li>-->
-<!--        <li>How To</li>-->
-<!--        <li>Blog</li>-->
-<!--        <li class="alignRight">Members</li>-->
-<!--        <li class="alignRight">-->
-<!--            Log In-->
-<!--        </li>-->
-<!--    </ul>-->
-<!--</nav>-->
+
+
+
 </body>
 </html>

@@ -7,6 +7,10 @@
     <body>
     <header>
         <div class="logoImg"> <img src="/images/logo/logo_horizontal.png"></div>
+                <?php
+                include ('navigation.php');
+                ?>
+
     </header>
 
 
