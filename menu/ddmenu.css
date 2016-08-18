@@ -40,6 +40,12 @@
   color: #FFF;
   background-color: #5ec2a4; }
 
+#ddmenu .over.no-sub:hover {
+  text-decoration: none; }
+
+#ddmenu .over.no-sub:active {
+  border-bottom: 3px solid #f69d1d; }
+
 #ddmenu .top-heading {
   font-weight: bold;
   margin: 0 16px;

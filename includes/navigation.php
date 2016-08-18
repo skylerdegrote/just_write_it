@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
     <link href="../menu/ddmenu.css" rel="stylesheet" type="text/css" />
     <script src="../menu/ddmenu.js" type="text/javascript"></script>
 
@@ -12,23 +13,14 @@
     <div class="menu-icon"></div>
     <ul>
         <li class="no-sub">
-            <a class="top-heading"href="#">Home</a>
+            <a class="top-heading"href="../index.php">Home</a>
+        </li>
+        <li class="no-sub">
+<!--     about just write it, about author, giving credit to everyone that contributes to the site       -->
+            <a class="top-heading" href="../about.php">About</a>
         </li>
         <li>
-            <span class="top-heading">About</span>
-            <i class="caret"></i>
-            <div class="dropdown">
-                <div class="dd-inner">
-                    <ul class="column">
-                        <li><a href="#">About Just Write It</a></li>
-                        <li><a href="#">About the Author</a></li>
-                        <li><a href="#">Giving Credit</a></li>
-                    </ul>
-                </div>
-            </div>
-        </li>
-        <li>
-            <a class="top-heading" href="http://www.microsoft.com">Resources</a>
+            <span class="top-heading">Resources</span>
             <i class="caret"></i>
             <div class="dropdown">
                 <div class="dd-inner">
@@ -37,6 +29,28 @@
                         <li><a href="#">Planning in Detail</a></li>
                         <li><a href="#">Almost No Planning</a></li>
                         <li><a href="#">Need to know</a></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        <li>
+            <span class="top-heading">How To's</span>
+            <i class="caret"></i>
+            <div class="dropdown offset300">
+                <div class="dd-inner">
+                    <ul class="column">
+                        <li><h3>Programs</h3></li>
+                        <li><a href="#">Scrivener</a></li>
+                        <li><h3>Planning</h3></li>
+                        <li><a href="#">In Lots of Detail</a></li>
+                        <li><a href="#">In Less Detail</a></li>
+                    </ul>
+                    <ul class="column">
+                        <li><h3>Build</h3></li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Scenes</a></li>
+                        <li><a href="#">Chapters</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,32 +78,32 @@
                 </div>
             </div>
         </li>
-        <li class="no-sub">
-            <a class="top-heading" href="#">Dignissim</a>
-        </li>
         <li>
-            <span class="top-heading">Laudantium</span>
+            <span class="top-heading">Members</span>
             <i class="caret"></i>
-            <div class="dropdown right-aligned">
+            <div class="dropdown">
                 <div class="dd-inner">
                     <ul class="column">
-                        <li><h3>Nam a leo</h3></li>
-                        <li><a href="#">Vel faucibus leo</a></li>
-                        <li><a href="#">Duis ut mauris</a></li>
-                        <li><a href="#">In tempus semper</a></li>
-                        <li><a href="#">laoreet erat</a></li>
+                        <li><h3>Members</h3></li>
+                        <li><a href="#">Log In</a></li>
                     </ul>
                     <ul class="column">
-                        <li><h3>Proin iaculis</h3></li>
-                        <li><a href="#">In tempus semper</a></li>
-                        <li><a href="#">Hendrerit tincidunt</a></li>
-                        <li><a href="#">Duis ut mauris</a></li>
-                        <li><a href="#">pretium amet</a></li>
+                        <li><h3>Guests</h3></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">Sign up for emails</a></li>
                     </ul>
+<!--                    --><?php
+//                    if ($login->isUserLoggedIn() == true) {
+//                        include ("loggedinmenu.php");
+//                    }else{
+//                        include("guestmenu.php");
+//                    }
+//                    ?>
                 </div>
             </div>
         </li>
     </ul>
+<!--    add social media icons here: algined right     -->
 </nav>
 
 </body>

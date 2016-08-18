@@ -58,9 +58,15 @@ $black: #000000;
   background-color: $teal;
 }
 
-#ddmenu .over.no-sub {
+#ddmenu .over.no-sub:hover {
+    text-decoration: none;
 
 }
+#ddmenu .over.no-sub:active {
+   border-bottom: 3px solid $orange;
+
+}
+
 
 
 #ddmenu .top-heading
