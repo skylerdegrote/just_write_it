@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menucool ddmenu</title>
+    <title></title>
     <link href="../menu/ddmenu.css" rel="stylesheet" type="text/css" />
     <script src="../menu/ddmenu.js" type="text/javascript"></script>
 
@@ -11,7 +11,7 @@
 <nav id="ddmenu">
     <div class="menu-icon"></div>
     <ul>
-        <li class="no-sub" id="offsetLeft0" >
+        <li class="no-sub">
             <a class="top-heading"href="#">Home</a>
         </li>
         <li>
