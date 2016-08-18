@@ -3,23 +3,17 @@
 #ddmenu {
   display: block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  /*Specify the alignment of the whole UL if UL is not width:100%;*/
   letter-spacing: normal; }
 
 #ddmenu ul {
-  margin: 20px auto;
   padding: 0;
-  text-align: center;
-  /* Alignment of each top-level menu items within the UL */
-  width: 100%;
   font-size: 0;
   background: #171144;
   display: inline-block;
   list-style: none;
+  margin-top: 50px;
   position: relative;
-  z-index: 999999990;
-  max-width: 80%; }
+  max-width: 100%; }
 
 #ddmenu li {
   margin: 0;
@@ -30,7 +24,7 @@
   zoom: 1;
   /*for IE6-7*/
   position: relative;
-  color: #eee;
+  color: #ffffff;
   line-height: 46px;
   /*This determines the height of the menu*/
   vertical-align: middle;
@@ -54,7 +48,8 @@
   text-decoration: none;
   display: inline-block;
   outline: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  text-align: left; }
 
 /* links of top-heading */
 #ddmenu a, #ddmenu a:link, #ddmenu a:hover {
@@ -84,7 +79,7 @@
 ----------------------------*/
 #ddmenu .dropdown {
   width: auto;
-  left: 0px;
+  left: 0;
   color: #f69d1d;
   padding: 0;
   margin: 0;
@@ -106,13 +101,16 @@
 
 #ddmenu .right-aligned {
   left: auto;
-  right: 0px; }
+  right: 0; }
+
+#ddmenu .left-aligned {
+  left: 0;
+  right: auto; }
 
 #ddmenu .over .dropdown {
   display: block; }
 
 #ddmenu .dd-inner {
-  text-align: center;
   padding: 20px;
   margin: 16px;
   background-color: #171144;
@@ -200,7 +198,7 @@
   /* hide menu icon initially */ }
 
 /*styles for mobile*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 900px) and (min-width: 400px) {
   #ddmenu .column.mayHide {
     display: none;
     margin-top: 50px;
@@ -266,7 +264,100 @@
     position: relative;
     width: 40px;
     height: 36px;
-    text-align: center;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    background-color: #171144;
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 6px;
+    /*align the icon to the right*/
+    margin-left: auto;
+    margin-right: 11px; }
+
+  #ddmenu .menu-icon::before {
+    content: "";
+    position: absolute;
+    top: 0.25em;
+    left: 4px;
+    width: 1em;
+    height: 0.125em;
+    border-top: 0.375em double #ffffff;
+    border-bottom: 0.125em solid #ffffff;
+    box-sizing: content-box; }
+
+  #ddmenu .menu-icon-active {
+    background-color: #171144; }
+
+  #ddmenu .menu-icon-active::before {
+    border-color: #ffffff; } }
+/*styles for mobile*/
+@media only screen and (max-width: 400px) {
+  #ddmenu .column.mayHide {
+    display: none;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+  /*override the original settings*/
+  #ddmenu ul {
+    width: 100%;
+    display: none;
+    border-radius: 0; }
+
+  #ddmenu li {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    text-align: left;
+    border-bottom: 1px solid #171144; }
+
+  #ddmenu .full-width {
+    position: relative; }
+
+  #ddmenu .dropdown {
+    position: relative;
+    margin-bottom: 50px;
+    *top: auto;
+    /*for IE7*/
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #ffffff; }
+
+  #ddmenu .offset300 {
+    left: 0; }
+
+  #ddmenu .full-width .dropdown {
+    width: auto; }
+
+  #ddmenu .dd-inner {
+    margin: 0;
+    background: none;
+    text-align: left; }
+
+  /*turn each column to list vertically instead of horizontally */
+  #ddmenu .column {
+    width: auto;
+    padding: 0;
+    border: none;
+    display: block; }
+
+  /*move the arrow icon to right*/
+  #ddmenu .caret {
+    position: absolute;
+    left: auto;
+    right: 14px;
+    top: 20px;
+    border-width: 5px; }
+
+  /* All the following are for the .menu-icon (pure CSS) */
+  #ddmenu .menu-icon {
+    font-size: 32px;
+    /*icon size*/
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 36px;
     cursor: pointer;
     -moz-user-select: none;
     -webkit-user-select: none;

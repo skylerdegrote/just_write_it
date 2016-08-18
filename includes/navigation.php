@@ -11,7 +11,9 @@
 <nav id="ddmenu">
     <div class="menu-icon"></div>
     <ul>
-        <li class="no-sub"><a class="top-heading" href="http://www.google.com">Home</a></li>
+        <li class="no-sub" id="offsetLeft0" >
+            <a class="top-heading"href="#">Home</a>
+        </li>
         <li>
             <span class="top-heading">About</span>
             <i class="caret"></i>
@@ -89,11 +91,6 @@
         </li>
     </ul>
 </nav>
-<div style="margin:200px auto 40px; width:400px; font:normal 15px/20px Arial; color:white; background-color:rgba(0,0,0,0.5);padding:30px;">
-    <h2>Note</h2>
-    <p>If you decrease the window size and the menu switches to the mobile mode, some of the columns in the menu dropdown will disappear.
-        This is because we have added the <code><b>mayHide</b></code> class to the columns. Class <b>mayHide</b> has been set to <code>display:none</code>
-        in the <em>ninja-slider.css</em> when the screen size is small.</p>
-</div>
+
 </body>
 </html>

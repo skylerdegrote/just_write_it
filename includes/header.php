@@ -6,12 +6,12 @@
     </head>
     <body>
     <header>
+<!--        <div class="logoImg"> <img src="/images/logo/logo-web.png"></div>-->
         <div class="logoImg"> <img src="/images/logo/logo-web.png"></div>
                 <?php
                 include('navigation.php');
                 ?>
 
-        </div>
     </header>
 
 

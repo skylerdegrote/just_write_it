@@ -12,23 +12,22 @@ $black: #000000;
 {
   display:block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align:center; /*Specify the alignment of the whole UL if UL is not width:100%;*/
+  //text-align:center; /*Specify the alignment of the whole UL if UL is not width:100%;*/
   letter-spacing:normal;
 }
 
 #ddmenu ul
 {
-  margin:20px auto;
+  //margin:50px auto;
   padding:0;
-  text-align:center; /* Alignment of each top-level menu items within the UL */
-  width:100%;
+  //text-align:center; /* Alignment of each top-level menu items within the UL */
   font-size:0;
   background:$darkBlue;
   display:inline-block;
   list-style:none;
+  margin-top:50px;
   position:relative;
-  z-index:999999990;
-  max-width:80%;
+  max-width:100%;
 }
 
 #ddmenu li
@@ -40,7 +39,7 @@ $black: #000000;
   *display:inline;
   zoom:1; /*for IE6-7*/
   position:relative;
-  color:#eee;
+  color:$white;
   line-height:46px; /*This determines the height of the menu*/
   vertical-align:middle;
   transition:background-color 0.2s;
@@ -64,6 +63,7 @@ $black: #000000;
 
 }
 
+
 #ddmenu .top-heading
 {
   font-weight:bold;
@@ -73,6 +73,7 @@ $black: #000000;
   display:inline-block;
   outline:0;
   cursor:pointer;
+  text-align: left;
 }
 
 /* links of top-heading */
@@ -110,7 +111,7 @@ $black: #000000;
 #ddmenu .dropdown
 {
   width:auto;
-  left:0px;
+  left:0;
   color: $orange;
   padding:0;margin:0;display:none;position:absolute;overflow:hidden;
   top:100%;
@@ -129,7 +130,11 @@ $black: #000000;
 
 #ddmenu .right-aligned {
   left:auto;
-  right:0px;
+  right:0;
+}
+#ddmenu .left-aligned {
+  left:0;
+  right:auto;
 }
 
 #ddmenu .over .dropdown
@@ -138,7 +143,7 @@ $black: #000000;
 }
 
 #ddmenu .dd-inner {
-  text-align:center;
+  //text-align:center;
   padding:20px;
   margin:16px;
   background-color:$darkBlue;
@@ -225,14 +230,17 @@ $black: #000000;
 
 
 
+
 /*styles for mobile*/
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 700px);
 {
   #ddmenu .column.mayHide {
     display:none;
     margin-top:50px;  margin-bottom:50px;
 
   }
+
+
 
   /*override the original settings*/
   #ddmenu ul {
@@ -307,7 +315,6 @@ $black: #000000;
     position: relative;
     width: 40px;
     height:36px;
-    text-align:center;
     cursor: pointer;
     -moz-user-select:none;
     -webkit-user-select: none;
@@ -340,4 +347,5 @@ $black: #000000;
     border-color: $white;
   ;
   }
+}
 }
