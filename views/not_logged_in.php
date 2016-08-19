@@ -27,4 +27,4 @@ if (isset($login)) {
 
 </form>
 
-<a href="../classes/register.php">Register new account</a>
+<a href="../views/registerform.php">Register new account</a>

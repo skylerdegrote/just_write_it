@@ -1,1 +1,1 @@
-CREATE DATABASE IF NOT EXISTS 'write-it';
+CREATE DATABASE just_write_it;

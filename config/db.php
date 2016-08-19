@@ -6,6 +6,6 @@
  * Time: 8:37 AM
  */
 define("DB_HOST", "localhost");
-define("DB_NAME", "write-it");
+define("DB_NAME", "just_write_it");
 define("DB_USER", "root");
 define("DB_PASS", "root");
